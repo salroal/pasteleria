@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <title>Eventos</title>
+</head>
+<body>
+    <table class="tabla">
+        <thead>
+            <tr>
+                <td class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.jpg">
+                    </a>
+                </td>
+                <td class="alargado">
+                    Pastelería Délice
+                </td>
+            </tr>
+            <table class="menu">
+                <tr>
+                    <td id="menuInicio"><a href="index.html"><b>Inicio</b></a></td>
+                    <td><a href="nosotros.html"><b>Nosotros</b></a></td>
+                    <td><a href="productos.html"><b>Productos</b></a></td>
+                    <td><a href="eventos.html"><b>Eventos</b></a></td>
+                    <td><a href="contacto.html"><b>Contacto</b></a></td>
+                </tr>
+            </table>
+        </thead>
+        <tbody>
+            <table class="cuerpoEventos">
+                <tr>
+                    <td colspan="2" width="96px" height="40px"><span class="eventosTitulo"><b>¿Tienes algún evento especial?</b></span></td>
+                </tr>
+                <tr>
+                    <td><span class="babyshowerTitulo"><b>Babyshower</b></td>
+                    <td><span class="bodasTitulo"><b>Bodas</b></span></td>
+                </tr>
+                <tr>
+                    <td><img id="baby" src="img/baby.png"></td>
+                    <td><img id="boda" src="img/boda.jpg"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr size="6px" color="#962d59" width="960px"></td>
+                </tr>
+                <tr>
+                    <td class="cajetinCampos">
+                        <br>Nombre
+                        <br>
+                        <br>Apellidos
+                        <br>
+                        <br>Teléfono
+                        <br>
+                        <br>Email
+                        <br>
+                        <br>Dirección
+                        <br>
+                        <br>Población
+                        <br>
+                        <br>Tipo de Evento
+                        <br>
+                        <br>
+                        <br>¿Entrega a domicilio?
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>Coméntanos tu idea
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>Puedes adjuntar una foto
+                        <br>
+                        <br>Opción: Enviar o Resetear
+                    </td>
+                    <td class="cajetinFormulario">
+                        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formulario">
+                            <br><input type="text" name="nombre" required>
+                            <br>
+                            <br><input type="text" name="apellidos" required>
+                            <br>
+                            <br><input type="number" name="telefono">
+                            <br>
+                            <br><input type="email" name="" required>
+                            <br>
+                            <br><input type="text" name="calle" id="">
+                            <br>
+                            <br><select name="poblaciones" id="">
+                                <option value="1">Madrid</option>
+                                <option value="2">Alcobendas</option>
+                                <option value="3">Getafe</option>
+                                <option value="4">Leganés</option>
+                                <option value="5">Pozuelo</option>
+                                <option value="6">Torrejón</option>
+                                </select>
+                            <br>
+                            <br><input type="checkbox" name="" id="">Boda
+                                <input type="checkbox" name="" id="">Babyshower
+                                <input type="checkbox" name="" id="">Cumpleaños
+                                <input type="checkbox" name="" id="">Empresa
+                                <input type="checkbox" name="" id="">Otro
+                            <br>
+                            <br><input type="radio" name="FP" id="" value="Sí">Sí
+                                <input type="radio" name="FP" id="" value="No">No, recoger en tienda
+                            <br>
+                            <br><textarea name="comentarios" id="" width="200px" cols="30" rows="10" maxlength="240"></textarea>
+                            <br>
+                            <br><input type="file" value="Seleccionar archivo">
+                            <br>
+                            <br><input type="submit" value="Enviar">
+                                <input type="reset" value="Reset">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            
+        </tbody>
+        <tfoot>
+            <table class="pie" >
+                <tr>
+                    <td>
+                        <span class="avisoLegal"><b>Aviso legal / Política de cookies</b></span>
+                        <span class="autor"><b>@Autor: Salvador Roda Alcayde 1ºDAW</b></span>
+                    </td>
+                </tr>
+             </table>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>

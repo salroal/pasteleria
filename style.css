@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Kranky&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+body{
+   background-image: url(img/fodo3.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color:white
+}
+table{
+    margin: 0 auto;
+    border-spacing: 0;
+}
+.alargado{
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    font-family: "Kranky", serif;
+    font-size: 70px;
+    color: #962d59;
+    text-align: center;
+}
+#menuInicio{
+    width: 300px; 
+    height: 60px;
+    background-color: #a277ad;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.menu td{
+    width: 175px; 
+    height: 60px;
+    background-color: #a277ad;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cuerpo{
+    width: 1000px; 
+    height: 460px;
+    background-color: #a277ad;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+.cuerpo td{
+    width: 400px; 
+    height: 230px;
+    background-color: #b5989a;
+    text-align: center;
+}
+
+.logo{
+    width: 300px; 
+    height: 300px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#decoracion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    height: 230px;
+}
+#tbody{
+    margin: 0 auto;
+    border-spacing: 0;
+}
+iframe{
+    width: 500px;
+    height: 350px;
+}
+.pie{
+    width: 1000px;
+    height: 50px;
+    background-color: #b5989a;
+}
+.avisoLegal{
+    float: left;
+    padding-left: 30px;
+}
+.autor{
+    float: right;
+    padding-right: 30px;  
+}
+.gluten{
+    width: 500px;
+    border: 3px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: #962d59;
+    color: #962d59;
+    font-size: 35px;
+}
+#galeria3{
+    width: 500px;
+    height: 350px;
+    border: 3px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: #962d59;
+}
+#barraCupcake{
+    width: 1000px;
+    height: 80px;
+    border-radius: 0px;
+}
+#letrasCupcakes{
+    font-size: 30px;
+    color: #962d59;
+    text-decoration: underline;
+}
+#cupCake1{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-left: 275px;
+}
+#cupCake2{
+    width: 80px;
+    height: 80px;
+    float: right;
+    padding-right: 225px; 
+}
+
+.tablaTartas{
+    width: 1000px; 
+    height: 460px;
+    background-color: #a277ad;
+    border-spacing: 2px;
+    
+}
+.tablaTartas td{
+    background-color: #b5989a;
+    text-align: center;
+}
+#nombreTarta{
+    background-color: #ffe5ee;
+    color: #962d59;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+#fotoTarta{
+    font-style: italic;
+    color: #962d59;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+.tablaTartas a{
+    text-decoration: none;
+    color: #962d59;
+}
+
+.cuerpoEventos{
+    background-color: #b5989a;
+    text-align: center;
+    width: 1000px;
+}
+.eventosTitulo{
+    font-size: 20px;
+    color: #962d59;
+    text-align: center;
+}
+.babyshowerTitulo{
+    float: left;
+    padding-left: 300px;
+    font-size: 20px;
+    color: #962d59;
+}
+.bodasTitulo{
+    float: right;
+    padding-right: 330px;
+    font-size: 20px;
+    color: #962d59;
+}
+#baby{
+    float: left;
+    padding-left: 200px;
+}
+#boda{
+    float: right;
+    padding-right: 200px;
+}
+.cajetinCampos{
+    text-align: right;
+}
+.cajetinFormulario{
+    text-align: left;
+}
+
+/* contacto */
+.mapaUbicacion{
+    width:900px;
+    height:200;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cajetinMensajeFormulario{
+    width: 380px;
+}
+
+.cajetinDerechoContacto{
+text-align: left;
+width: 245px;
+}
+
+#infoCorreo{
+    text-align: right;
+}
+
+#sobreCorreo{
+    width:15px;
+    height:15px;
+}
+
+#botonEnviar{
+    width:150px;
+    height:50px;
+}
+.quieresMensaje{
+    font-size: 20px;
+    color: #962d59;
+    text-align: center;
+}
+.contactaDirectamente{
+    font-size: 20px;
+    color: #962d59;
+    text-align: center;
+}
+
+
+
+

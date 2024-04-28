@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+    <table class="tabla">
+        <thead>
+            <tr>
+                <td class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.jpg">
+                    </a>
+                </td>
+                <td class="alargado">
+                    Pastelería Délice
+                </td>
+            </tr>
+            <table class="menu">
+                <tr>
+                    <td id="menuInicio"><a href="index.html"><b>Inicio</b></a></td>
+                    <td><a href="nosotros.html"><b>Nosotros</b></a></td>
+                    <td><a href="productos.html"><b>Productos</b></a></td>
+                    <td><a href="eventos.html"><b>Eventos</b></a></td>
+                    <td><a href="contacto.html"><b>Contacto</b></a></td>
+                </tr>
+            </table>
+        </thead>
+        <tbody>
+            <table class="cuerpoEventos">
+                <tr>
+                    <td colspan="2">
+                        <iframe id="mapaUbicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12150.617619208117!2d3.705170879846319!3d40.41650620415263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e5d54d389%3A0xbf270ec9e050f689!2sC.%20Mayor%2C%202%2C%2028013%20Madrid!5e0!3m2!1ses!2ses!4v1638562230241!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </td>
+                </tr>
+                <tr width="600px" height="60px">
+                    <td><span class="quieresMensaje"><b><u>¿Quieres enviarnos un mensaje?</u></b></td>
+                    <td><span class="contactaDirectamente"><b><u>Contáctanos directamente</u></b></span></td>
+                </tr>
+                <tr>
+                    <td class="cajetinMensajeFormulario">
+                        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formularioContacto">
+                            <table>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td align="left"><input type="text" name="nombre" required></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Apellidos</td>
+                                    <td align="left"><input type="text" name="apellidos" required></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td align="left"><input type="email" name="" required></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Comentario</td>
+                                    <td><textarea name="comentarios" id="" width="350px" cols="50" rows="10" maxlength="240"></textarea></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td align="right"><button type="submit" name="submit">
+                                                        <img id="botonEnviar" src="img/enviar.png" alt="Enviar formulario">
+                                                      </button>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </td>
+                    <td class="cajetinDerechoContacto">
+                            La <b>pastelería Délice</b> está
+                            <br>situada en pleno centro de
+                            <br>Madrid, en la Plaza del Sol,
+                            <br>formando parte de su historia
+                            <br>desde 1894. Contacta con
+                            <br>nosotros si la necesitas
+                            <br>utilizando el formulario.
+                            <br>
+                            <br><u>IMPORTANTE</u>: No cogemos
+                            <br>pedidos, ni aceptamos reservas
+                            <br>a través de este formulario.
+                            <p>
+                                <img id="sobreCorreo" src="img/mensaje.png" alt=""> <a id="infoCorreo" href="mailto:salroal@hotmail.com"><b>info@pasteleriadelice.es</b></a>
+                            </p>
+
+                    </td>
+                </tr>
+            </table>
+            
+        </tbody>
+        <tfoot>
+            <table class="pie" >
+                <tr>
+                    <td>
+                        <span class="avisoLegal"><b>Aviso legal / Política de cookies</b></span>
+                        <span class="autor"><b>@Autor: Salvador Roda Alcayde 1ºDAW</b></span>
+                    </td>
+                </tr>
+             </table>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
